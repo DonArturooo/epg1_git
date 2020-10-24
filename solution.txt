@@ -1,0 +1,19 @@
+git clone https://github.com/DonArturooo/epg1_git
+
+git checkout -b hw-s15811
+
+git checkout origin/rebase-me
+
+git rebase hw-s15811
+
+git checkout hw-s15811
+
+git merge f2e1eac
+
+git merge origin/merge-me
+
+nano README.md rozwiązanie konfliktów
+
+git add README.md
+
+git commit -m "zmergowanie brancha merge-me"
